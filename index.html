@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Experience Letter</title> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            /* padding: 40px 20px; */
+        }
+        
+        .letter-container {
+            max-width: 800px;
+            /* margin: 0 auto; */
+            background: white;
+            padding: 60px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .logo-section {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #2c3e50;
+        }
+        
+        .logo-placeholder {
+            width: 150px;
+            height: 60px;
+            margin: 0 auto 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .company-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            /* margin-bottom: 5px; */
+        }
+        
+        .company-tagline {
+            font-size: 12px;
+            color: #7f8c8d;
+            letter-spacing: 1px;
+        }
+        
+        .letter-title {
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin: 30px 0;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+        }
+        
+        .date-section {
+            text-align: right;
+            margin-bottom: 30px;
+            color: #555;
+            font-size: 14px;
+        }
+        
+        .content {
+            line-height: 1.8;
+            color: #333;
+            font-size: 15px;
+            text-align: justify;
+        }
+        
+        .content p {
+            margin-bottom: 20px;
+        }
+        
+        .highlight {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .skills-section {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .skills-section li {
+            margin-bottom: 2px;
+            color: #444;
+        }
+        
+        /* .signature-section {
+            margin-top: 60px;
+        } */
+        
+        /* .signature-line {
+            border-top: 2px solid #333;
+            width: 200px;
+            margin-top: 60px;
+        } */
+        
+        .signature-name {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #2c3e50;
+        }
+        
+        .signature-title {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .footer {
+            /* margin-top: 10px; */
+            /* padding-top: 20px; */
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .letter-container {
+                box-shadow: none;
+                padding: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+  <button id="downloadPdfBtn" style="
+background:#2c3e50;color:#fff;border:none;padding:10px 18px;
+margin:20px;font-size:16px;border-radius:6px;cursor:pointer;">
+Download PDF
+</button>
+    <div id="letter" class="letter-container">
+        <div class="logo-section">
+            <div class="">
+              <img src="./Aiqa.svg" alt="Company Logo" style="max-width: 100px; max-height: 100%;">
+            </div>
+            <div class="company-name">AiiQA Powered by Code2Tech Innovation Pvt. Ltd.</div>
+            <div class="company-tagline">INNOVATING THE FUTURE</div>
+        </div>
+        
+        <div class="letter-title">EXPERIENCE LETTER</div>
+        
+        <div class="date-section">
+            Date: <span class="highlight">November 30, 2024</span>
+        </div>
+        
+        <div class="content">
+            <p><strong>TO WHOM IT MAY CONCERN</strong></p>
+            
+            <p>This is to certify that <span class="highlight">Ms. Navya Madasu</span> has been working with our organization as a <span class="highlight">Frontend Developer</span> since <span class="highlight">November 10, 2024</span>.</p>
+            
+            <p>During her tenure with us, Navya has consistently demonstrated exceptional technical skills and professional dedication. She has been an integral part of our development team and has made significant contributions to various projects.</p>
+            
+            <p><strong>Key Contributions and Strengths:</strong></p>
+            
+            <ul class="skills-section">
+                <li><strong>Technical Excellence:</strong> Navya possesses strong proficiency in modern frontend technologies including React, JavaScript, HTML5, and CSS3. Her code quality and attention to detail have been exemplary.</li>
+                
+                <li><strong>Responsive Design:</strong> She has successfully developed multiple responsive and user-friendly interfaces that enhance user experience across various devices and platforms.</li>
+                
+                <!-- <li><strong>Problem-Solving Skills:</strong> Navya demonstrates excellent analytical abilities and consistently delivers efficient solutions to complex technical challenges.</li> -->
+                
+                <li><strong>Team Collaboration:</strong> She works effectively with cross-functional teams, communicating clearly with designers, backend developers, and project managers to ensure seamless project execution.</li>
+                
+                <li><strong>Learning Agility:</strong> Navya shows a strong commitment to staying updated with the latest frontend development trends and technologies, quickly adapting to new tools and frameworks.</li>
+                
+                <li><strong>Professional Attitude:</strong> She maintains a positive attitude, meets deadlines consistently, and demonstrates strong work ethics in all her assignments.</li>
+            </ul>
+            
+            <p>Navya has proven to be a valuable asset to our organization. Her technical competence, dedication, and professional approach have earned her the respect of colleagues and management alike.
+            
+            We wish her all the best in her future endeavors and are confident that she will continue to excel in her professional career.</p>
+            
+            <!-- <p>Should you require any further information, please feel free to contact us.</p> -->
+        </div>
+        
+        <div class="signature-section">
+            <!-- <div class="signature-line"></div> -->
+            <div class="signature-name">Praveen Yadav</div>
+            <div class="signature-title">Co-Founder & CEO</div>
+            <div class="signature-title">AiiQA Powered by Code2Tech Innovation Pvt. Ltd.</div>
+        </div>
+        
+        <div class="footer">
+            AiiQA Powered by Code2Tech Innovation Pvt. Ltd.  | <a href="https://www.aiiqa.com/" target="_blank" >https://www.aiiqa.com/</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script>
+document.getElementById("downloadPdfBtn").addEventListener("click", async function () {
+    const letter = document.getElementById('letter');
+    const canvas = await html2canvas(letter, { scale: 2 });
+
+    const imageData = canvas.toDataURL('image/png');
+
+    const { jsPDF } = window.jspdf;
+    const pdf = new jsPDF("p", "mm", "a4");
+
+    const pageWidth = 210;
+    const pageHeight = 297;
+    const imgWidth = pageWidth;
+    const imgHeight = (canvas.height * imgWidth) / canvas.width;
+
+    let heightLeft = imgHeight;
+    let position = 0;
+
+    pdf.addImage(imageData, "PNG", 0, position, imgWidth, imgHeight);
+    heightLeft -= pageHeight;
+
+    while (heightLeft > 0) {
+        position = heightLeft - imgHeight;
+        pdf.addPage();
+        pdf.addImage(imageData, "PNG", 0, position, imgWidth, imgHeight);
+        heightLeft -= pageHeight;
+    }
+
+    pdf.save("Experience_Letter.pdf");
+});
+</script>
+</body>
+</html>
